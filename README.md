@@ -1,5 +1,5 @@
 # rvgl-packager
-Create packs for RVGL Luancher
+Create packs for RVGL Launcher
 
 ## Installation
 Clone the repository
