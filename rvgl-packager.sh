@@ -30,6 +30,17 @@ package_file=package.json
 package_zip=package.zip
 package_sha=package.sha256
 
+if [ ! -d zips ]; then
+  mkdir zips
+fi
+
+if [ ! -d pack ]; then
+  mkdir pack
+fi
+
+if [ ! -d images ]; then
+  mkdir images
+fi
 
 if [ ! -f ${fix_cases} ]; then
   wget ${rvgl_linux} -q -O ${rvgl_linux_zip}  
